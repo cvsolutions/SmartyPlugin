@@ -17,8 +17,9 @@
  *
  * @version 	1.0
  * @author 		Concetto Vecchio <info@cvsolutions.it>
- * @param 		string 		$address email address
- * @return 		string 		URL Gravatar
+ * @param 		string 		$address The email address
+ * @param 		string 		$size Size in pixels
+ * @return 		string 		String containing either just a URL or a complete image tag
  */
 function smarty_modifier_gravatar($address = '', $size = 60)
 {
